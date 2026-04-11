@@ -27,3 +27,7 @@ I split the dungeon generation into distinct functions and ensure the code remai
 1. **Clone** this repository.
 2. **Open** the project in Godot 4
 3. **Press F5** (Run) and click the **"Generate Dungeon"** button to trigger a new layout.
+
+## Credits
+Tile Art Asset by Fedor Kochikov
+https://xvideosman.itch.io/cave-tileset
