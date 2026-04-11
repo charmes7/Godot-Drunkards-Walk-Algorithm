@@ -137,12 +137,12 @@ sources/0 = SubResource("TileSetAtlasSource_68tp4")
 
 [node name="Node2D" type="Node2D" unique_id=1164612007]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1794041690 node_paths=PackedStringArray("dungeonMap", "camera")]
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1794041690 node_paths=PackedStringArray("DungeonMap", "Camera")]
 tile_set = SubResource("TileSet_tcost")
 script = ExtResource("2_gnhn6")
-maxSteps = 2000
-dungeonMap = NodePath(".")
-camera = NodePath("../Camera2D")
+MaxSteps = 2000
+DungeonMap = NodePath(".")
+Camera = NodePath("../Camera2D")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1169732910]
 zoom = Vector2(0.5, 0.5)
